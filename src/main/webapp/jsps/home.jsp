@@ -13,7 +13,8 @@
 <h1 align="center"> Welcome to Landmark Technology.......We have a demo on DevOps E Degree with Linux and AWS  on Saturday August 5, 2020 at 4pm EST for our new batch. 
 	Landmark Technology is a an ideal online training  platform for DevOps and Cloud Infrastructures. 
 	Our anointed and extensive teaching approach takes our students with or without any IT Background to become Subject Matter Expect in IT, and DevOps automation.
-	Over 80% of our students are hired within 6 months of joining Landmark Technology.</h1>
+	Over 80% of our students are hired within 6 months of joining Landmark Technology.
+        Very good institute.</h1>
 <hr>
 <div style="text-align: center;">
 	<span>
