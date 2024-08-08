@@ -28,7 +28,7 @@ stage('App Deploy to Tomcat')
 {
 sshagent(['49a57718-5760-48b3-a32a-2a7a28c45d94']) {
 
-  sh "scp -o StrictHostKeyChecking=no target/Landmark.war ec2-user@13.232.94.112:/opt/apache-tomcat-9.0.91/webapps"
+  sh "scp -o StrictHostKeyChecking=no target/Landmark.war ec2-user@13.201.118.112:/opt/apache-tomcat-9.0.91/webapps"
 }
 }
 }
