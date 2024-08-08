@@ -4,13 +4,14 @@ node
 properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', numToKeepStr: '5')), [$class: 'JobLocalConfiguration', changeReasonComment: ''], pipelineTriggers([pollSCM('* * * * *')])])
 def mH= tool name :"maven 3.9.8"
 
+    timestamps {
 stage('checkoutgitCode')
 {
 
 git branch: 'development', credentialsId: 'e0f2abd6-9977-4c4b-b29e-e19c1176e48c', url: 'https://github.com/ganeshraju1238/LT-maven-web-application.git'
 
 }
-timestamps {
+
     
 stage('Build')
 {
